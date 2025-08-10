@@ -7,6 +7,6 @@ RUN npm install && npm install -g pm2
 
 VOLUME ["/Volume1/docker/vavava", "/home/public"]
 
-EXPOSE 32706
+EXPOSE 32751
 
 CMD ["npm", "run", "start"]
